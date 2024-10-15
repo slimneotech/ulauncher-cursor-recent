@@ -1,8 +1,8 @@
-# ulauncher-vscode-recent
+# ulauncher-cursor-recent
 
-> 💻 Open recent VS Code folders and files using Ulauncher.
+> 💻 Open recent Cursor folders and files using Ulauncher.
 
-Quickly open recently-opened VS Code project directories and files.
+Quickly open recently-opened Cursor project directories and files.
 
 ## Install
 

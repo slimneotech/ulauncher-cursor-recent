@@ -1,7 +1,7 @@
 [project]
-name = "ulauncher-vscode-recent"
+name = "ulauncher-cursor-recent"
 version = "0.1.0"
-description = "Open recent VS Code folders and files using Ulauncher"
+description = "Open recent Cursor folders and files using Ulauncher"
 authors = [
     "Mihir Chaturvedi <plibither8@gmail.com>"
 ]
@@ -12,7 +12,7 @@ homepage = "https://github.com/plibither8/ulauncher-vscode-recent"
 repository = "https://github.com/plibither8/ulauncher-vscode-recent"
 documentation = "https://github.com/plibither8/ulauncher-vscode-recent"
 
-keywords = ["ulauncher", "extension", "code", "vscode"]
+keywords = ["ulauncher", "extension", "code", "cursor"]
 
 classifiers = [
     "Topic :: Desktop Environment"

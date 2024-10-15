@@ -34,7 +34,7 @@ class Utils:
 
 class Code:
 	path_dirs = ("/usr/bin", "/bin", "/snap/bin")
-	variants = ("Code", "VSCodium")
+	variants = ("Cursor", "Code", "VSCodium")
 
 	def __init__(self):
 		self.installed_path = None
@@ -58,7 +58,7 @@ class Code:
 					self.storage_json = config_path / 'User' / 'globalStorage' / 'storage.json'
 					return
 
-		logger.warning('Unable to find VS Code installation and config directory')
+		logger.warning('Unable to find Cursor installation and config directory')
 
 	def is_installed(self):
 		return bool(self.installed_path)
@@ -132,7 +132,7 @@ class Code:
 			})
 		return recents
 
-	def open_vscode(self, recent, excluded_env_vars):
+	def open_cursor(self, recent, excluded_env_vars):
 		if not self.is_installed():
 			return
 		# Get the current environment variables
@@ -208,8 +208,8 @@ class KeywordQueryEventListener(EventListener):
 			items.append(
 				ExtensionResultItem(
 					icon=Utils.get_path("images/icon.svg"),
-					name="No VS Code?",
-					description="Can't find the VS Code's `code` command in your system :(",
+					name="No Cursor?",
+					description="Can't find the Cursor's `code` command in your system :(",
 					highlightable=False,
 					on_enter=HideWindowAction(),
 				)
@@ -224,7 +224,7 @@ class KeywordQueryEventListener(EventListener):
 class ItemEnterEventListener(EventListener):
 	def on_event(self, event, extension):
 		recent = event.get_data()
-		extension.code.open_vscode(recent, extension.excluded_env_vars)
+		extension.code.open_cursor(recent, extension.excluded_env_vars)
 
 
 class PreferencesEventListener(EventListener):
