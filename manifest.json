@@ -3,14 +3,14 @@
 	"name": "Cursor Recent",
 	"description": "Quickly open recently-opened Cursor project directories and files",
 
-	"developer_name": "plibither8",
+	"developer_name": "GEkuL",
 	"icon": "images/icon.svg",
 	"preferences": [
 		{
 			"id": "code_kw",
 			"type": "keyword",
 			"name": "Trigger keyword",
-			"default_value": "code"
+			"default_value": "r"
 		},
 		{
 			"id": "excluded_env_vars",

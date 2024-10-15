@@ -3,14 +3,15 @@ name = "ulauncher-cursor-recent"
 version = "0.1.0"
 description = "Open recent Cursor folders and files using Ulauncher"
 authors = [
+    "GEkuL <42621207+GEkuL@users.noreply.github.com>",
     "Mihir Chaturvedi <plibither8@gmail.com>"
 ]
 license = "MIT"
 readme = "README.md"
 python = "^3.6"
-homepage = "https://github.com/plibither8/ulauncher-vscode-recent"
-repository = "https://github.com/plibither8/ulauncher-vscode-recent"
-documentation = "https://github.com/plibither8/ulauncher-vscode-recent"
+homepage = "https://github.com/gekul/ulauncher-cursor-recent"
+repository = "https://github.com/gekul/ulauncher-cursor-recent"
+documentation = "https://github.com/gekul/ulauncher-cursor-recent"
 
 keywords = ["ulauncher", "extension", "code", "cursor"]
 
