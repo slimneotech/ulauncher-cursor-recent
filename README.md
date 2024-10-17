@@ -26,6 +26,29 @@ This Ulauncher plugin is a fork of [*ulauncher-vscode-recent*](https://github.co
 ```
 https://github.com/gekul/ulauncher-cursor-recent
 ```
+3. Create cursor shortcut to be available from bash.
+    <details>
+    <summary>Reasoning</summary>
+    Cursor is currently distributed as an AppImage binary.
+
+    Which gets updated changing the name and has no terminal command by default, therefore, can't be called by the plugin.
+
+    Thus, let's add shortcut to have your `cursor` available from bash.
+    </details>
+
+   
+   1. `sudo nano /bin/cursor` and 
+   2. paste (*ctrl+shift+v*):
+      ```
+      #!/bin/bash
+      cd /your/path/to/AppImageBinary
+      ./cursor-*.AppImage $1 $2
+      ```
+   3. Save (*ctrl+o*) and Exit (*ctrl+x*)
+    <details>
+    <summary>Script Explanation</summary>
+    This script calls your Cursor binary with the first 2 arguments received.
+    </details>
 
 This extension should now be set up and work.
 
