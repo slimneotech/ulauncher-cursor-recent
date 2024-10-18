@@ -60,4 +60,4 @@ Default keyword to trigger this extension is **`r`**. This can be changed in the
 
 This source code is released under the [MIT](LICENSE) license.
 
-The icons are from [github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons), which are available under the Creative Commons - ShareAlike (CC BY-SA) license.
+The icons were adjusted from [github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons), which are available under the Creative Commons - ShareAlike (CC BY-SA) license.
